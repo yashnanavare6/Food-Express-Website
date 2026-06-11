@@ -74,13 +74,13 @@ The Contact Page allows users to get in touch through a contact form and provide
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/foodexpress.git
+https://github.com/yashnanavare6/Food-Express-Website
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd foodexpress
+cd ass2
 ```
 
 Install dependencies:
