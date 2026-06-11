@@ -1,16 +1,112 @@
-# React + Vite
+# 🍔 FoodExpress - Food Delivery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+FoodExpress is a modern food delivery website developed using React JS. The website provides users with an easy and interactive way to explore food items, learn about the company, view the menu, and contact the team. The project focuses on creating a clean, responsive, and user-friendly interface inspired by popular food delivery platforms.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Modern Responsive Navigation Bar
+* Professional Home Page
+* About Us Page
+* Interactive Menu Page
+* Contact Us Page with Contact Form
+* Login Page
+* Attractive UI Design
+* Mobile-Friendly Layout
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* React JS
+* JSX
+* CSS
+* Vite
+* JavaScript
+
+---
+
+## 🏠 Home Page
+
+The Home Page serves as the landing page of FoodExpress. It features a modern hero section with food imagery, featured dishes, popular categories, and information about the services provided.
+
+### Screenshot
+
+![Home Page](images/homepage.png)
+
+---
+
+## ℹ️ About Us Page
+
+The About Us page introduces FoodExpress and explains its mission, vision, and commitment to delivering fresh and delicious food to customers.
+
+### Screenshot
+
+![About Page](images/about.png)
+
+---
+
+## 🍕 Menu Page
+
+The Menu Page displays various food categories and featured dishes available for customers to explore.
+
+### Screenshot
+
+![Menu Page](images/menu.png)
+
+---
+
+## 📞 Contact Us Page
+
+The Contact Page allows users to get in touch through a contact form and provides important contact information.
+
+### Screenshot
+
+![Contact Page](images/contact.png)
+
+---
+
+## 📥 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/foodexpress.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd foodexpress
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Future Enhancements
+
+* User Authentication
+* Shopping Cart Functionality
+* Online Payment Integration
+* Order Tracking System
+* Restaurant Reviews & Ratings
+
+---
+
+## 👨‍💻 Author
+
+Developed by Yash Nanavare.
