@@ -13,9 +13,10 @@ FoodExpress is a modern food delivery website developed using React JS. The webs
 * About Us Page
 * Interactive Menu Page
 * Contact Us Page with Contact Form
-* Login Page
 * Attractive UI Design
 * Mobile-Friendly Layout
+* Add Details (Order) Page
+Admin Dashboard
 
 ---
 
@@ -68,6 +69,25 @@ The Contact Page allows users to get in touch through a contact form and provide
 ![Contact Page](images/contact.png)
 
 ---
+
+📝 Add Details Page
+
+The Add Details page allows customers to place an order by submitting their personal information.
+
+Features
+Enter Name
+Enter Phone Number
+Enter Address
+Submit Order Details
+Store Customer Information in Supabase Database
+
+The submitted data is automatically saved in the Supabase database and can be viewed by administrators through the Admin Dashboard.
+
+---
+
+### Screenshot
+
+![Details].(images/Add.png).
 
 ## 📥 Installation
 
