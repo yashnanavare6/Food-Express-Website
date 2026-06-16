@@ -16,8 +16,8 @@ FoodExpress is a modern food delivery website developed using React JS. The webs
 * Attractive UI Design
 * Mobile-Friendly Layout
 * Add Details (Order) Page
-Admin Dashboard
-
+* Admin Dashboard
+ 
 ---
 
 ## 🛠️ Technologies Used
@@ -34,8 +34,6 @@ Admin Dashboard
 
 The Home Page serves as the landing page of FoodExpress. It features a modern hero section with food imagery, featured dishes, popular categories, and information about the services provided.
 
-### Screenshot
-
 ![Home Page](images/homepage.png)
 
 ---
@@ -43,8 +41,6 @@ The Home Page serves as the landing page of FoodExpress. It features a modern he
 ## ℹ️ About Us Page
 
 The About Us page introduces FoodExpress and explains its mission, vision, and commitment to delivering fresh and delicious food to customers.
-
-### Screenshot
 
 ![About Page](images/about.png)
 
@@ -54,8 +50,6 @@ The About Us page introduces FoodExpress and explains its mission, vision, and c
 
 The Menu Page displays various food categories and featured dishes available for customers to explore.
 
-### Screenshot
-
 ![Menu Page](images/menu.png)
 
 ---
@@ -63,8 +57,6 @@ The Menu Page displays various food categories and featured dishes available for
 ## 📞 Contact Us Page
 
 The Contact Page allows users to get in touch through a contact form and provides important contact information.
-
-### Screenshot
 
 ![Contact Page](images/contact.png)
 
@@ -88,6 +80,25 @@ This dashboard helps administrators monitor and manage all customer order reques
 # Admin page
 
 ![Admin](images/Admin.png)
+
+---
+
+📝 Add Details Page
+
+The Add Details page allows customers to place an order by submitting their personal information.
+
+Features
+Enter Name
+Enter Phone Number
+Enter Address
+Submit Order Details
+Store Customer Information in Supabase Database
+
+The submitted data is automatically saved in the Supabase database and can be viewed by administrators through the Admin Dashboard.
+
+---
+
+![AddDetails Page](images/Add.png)
 
 ## 📥 Installation
 
