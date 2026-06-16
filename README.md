@@ -70,24 +70,24 @@ The Contact Page allows users to get in touch through a contact form and provide
 
 ---
 
-📝 Add Details Page
+👨‍💼 Admin Dashboard
 
-The Add Details page allows customers to place an order by submitting their personal information.
+The Admin Dashboard is designed for administrators to manage customer order information.
 
 Features
-Enter Name
-Enter Phone Number
-Enter Address
-Submit Order Details
-Store Customer Information in Supabase Database
+View all customer records
+Display customer Name, Phone Number, and Address
+Retrieve data directly from Supabase
+Delete customer records
+Manage submitted order information efficiently
 
-The submitted data is automatically saved in the Supabase database and can be viewed by administrators through the Admin Dashboard.
+This dashboard helps administrators monitor and manage all customer order requests in one place.
 
 ---
 
-### Screenshot
+# Admin page
 
-![Details].(images/Add.png).
+![Admin](images/admin.png)
 
 ## 📥 Installation
 
