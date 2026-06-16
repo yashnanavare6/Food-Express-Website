@@ -87,7 +87,7 @@ This dashboard helps administrators monitor and manage all customer order reques
 
 # Admin page
 
-![Admin](images/admin.png)
+![Admin](images/Admin.png)
 
 ## 📥 Installation
 
