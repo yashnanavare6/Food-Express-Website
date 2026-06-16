@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 export function Navbar() {
   const navigate = useNavigate();
   return (
@@ -86,33 +87,22 @@ export function Navbar() {
           gap: "15px",
         }}
       >
-        <button
-          style={{
-            padding: "10px 20px",
-            border: "1px solid #ff6b35",
-            background: "white",
+        <Link to="/Admin">
+          <button
+            style={{
+              padding: "10px 20px",
+              border: "1px solid #ff6b35",
+              background: "white",
             color: "#ff6b35",
             borderRadius: "8px",
             cursor: "pointer",
             fontWeight: "600",
           }}
         >
-          Login
+         Admin Login
         </button>
-
-        <button
-          style={{
-            padding: "10px 20px",
-            border: "none",
-            background: "#ff6b35",
-            color: "white",
-            borderRadius: "8px",
-            cursor: "pointer",
-            fontWeight: "600",
-          }}
-        >
-          Sign Up
-        </button>
+        </Link>
+       
       </div>
     </nav>
   );

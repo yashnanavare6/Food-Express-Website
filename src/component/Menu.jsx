@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export function Menu() {
   const items = [
     {
@@ -153,7 +154,7 @@ export function Menu() {
               >
                 {item.price}
               </h3>
-
+<Link to="/AddDetails" >
               <button
                 style={{
                   width: "100%",
@@ -169,6 +170,7 @@ export function Menu() {
               >
                 Order Now
               </button>
+</Link>
             </div>
           </div>
         ))}

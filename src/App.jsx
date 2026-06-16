@@ -9,7 +9,9 @@ import { Navbar } from './component/Navbar'
 import { Home } from './component/Home'
 import { Contact } from './component/Contact'
 import { Menu } from './component/Menu'
-function App() {
+import { AddDetails } from './New/Adddetails'
+import { Admin } from './New/Admin'
+export function App() {
   
 
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/Menu" element={<Menu />} />
+        <Route path="/AddDetails" element={<AddDetails />} />
+        <Route path="/Admin" element={<Admin />} />
       </Routes>
     </div>
   )
